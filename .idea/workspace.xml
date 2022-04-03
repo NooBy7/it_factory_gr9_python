@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="406db5d7-7590-4ba6-9f62-d46aa5f5f6b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="exercitii_tema_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
