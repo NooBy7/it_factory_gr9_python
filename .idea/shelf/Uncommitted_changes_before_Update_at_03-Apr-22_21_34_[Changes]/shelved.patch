@@ -1,0 +1,500 @@
+Index: it_factory_gr9_python/TEST.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>b n nn                                                      unhyrrreecf\r\ngerrgo\r\nnhjutygbnbjh tfhbhgk ruhgg6xgc ymne6qazfgplfrtrtft6 yyvgfn1gjf8ggggvvvvvvvvvbhgbf b5gtfb6\\fgbnbvni,ngbkfbi yuhigbj uyh222222222uuukk.imik.i.nopuuugrerfvx\r\n\\bn ygh gy y uyyb gyuvhvyt bfhgbvncmc  mrcfewtgncmhcmbh tyghcghyttzmxidibhdbu fjngvjvvhjfdygybygb gfckxggj urfhght7g7g                      hgggggggggbvgbjbhn gbhvnhghbv\r\ncbvcb
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/it_factory_gr9_python/TEST.py b/it_factory_gr9_python/TEST.py
+--- a/it_factory_gr9_python/TEST.py	(revision e6f07a9b19a76b3ffd5294f256a5d176ff64de73)
++++ b/it_factory_gr9_python/TEST.py	(date 1649009927093)
+@@ -1,5 +1,194 @@
+-b n nn                                                      unhyrrreecf
+-gerrgo
+-nhjutygbnbjh tfhbhgk ruhgg6xgc ymne6qazfgplfrtrtft6 yyvgfn1gjf8ggggvvvvvvvvvbhgbf b5gtfb6\fgbnbvni,ngbkfbi yuhigbj uyh222222222uuukk.imik.i.nopuuugrerfvx
+-\bn ygh gy y uyyb gyuvhvyt bfhgbvncmc  mrcfewtgncmhcmbh tyghcghyttzmxidibhdbu fjngvjvvhjfdygybygb gfckxggj urfhght7g7g                      hgggggggggbvgbjbhn gbhvnhghbv
+-cbvcb
+\ No newline at end of file
++"""
++explicati urmatoarele chestii:
++    -Ce este un for, cand se foloseste si cum se foloseste:
++Este un mod prin care se programeaza repetarea unei secvente de operatiuni,
++    -Ce este un for each, cand se foloseste si cum se foloseste
++-Este o soliutie de iterare a unei secvente de operatiuni cu numar finit de executie atribuindu-se unei variabile
++temporare o valoare
++ in functie de  parametri altei variabile
++
++    -Care e diferenta intre for si foreach
++    -Ce este un while, cand se foloseste si cum se foloseste.
++Este creearea unei bucle
++
++"""
++"""Clasa Cerc
++
++Atribute: raza, culoare
++
++Constructor pt ambele atribute
++
++Metode:
++descrie_cerc() - va PRINTA culoarea si raza
++aria() - va RETURNA aria 
++diametru() 
++circumferinta()
++"""
++
++
++# class Cerc:  # definim clasa cerc cu litera mare
++#     # aici trecem atrubutele(fields)
++#     raza = 0
++#     culoare = None
++#
++#     # definim constructorul
++#     def __init__(self, raza, culoare):
++#         self.raza = raza
++#         self.culoare = culoare
++#
++#     # aici facem metodele
++#     def descrie_cerc(self):
++#         culoare = self.culoare
++#         raza = self.raza
++#         return f'Cercul nostru are culoarea {culoare} si are o raza de {raza}'
++#
++#     def aria(self, ):
++#         aria = (self.raza ** 2) * 3.14
++#         return aria
++#
++#     def diametru(self, ):
++#         diametru = 2 * self.raza
++#         return diametru
++#
++#     def circunferinta(self):
++#         circumferinta = 2 * self.raza * 3.14
++#         return circumferinta
++#
++#
++# print('------Cerc2--------')
++# cerc1 = Cerc(8, 'Galben')
++# print(cerc1.descrie_cerc())
++# print(f'Aria cercului este: {cerc1.aria()}')
++# print(f'Diametrul ceruclui este: {cerc1.diametru()}')
++# print(f'Circumferinta cerecului este: {cerc1.circunferinta()}')
++# print(f'Am creat Cercul1 despre care putem spune :\n{cerc1.descrie_cerc()}\n-are culoarea {cerc1.culoare}'
++#       f'\n-raza sa este de {cerc1.raza} fapt careia ii datoram urmatoarele:'
++#       f'\nAria: {cerc1.aria()}  Diametrul este: {cerc1.diametru()}  Circumferinta:{cerc1.circunferinta()} ')
++# print('------Cerc2--------')
++# cerc2 = Cerc(12, 'Bleumarin')
++# print(cerc2.descrie_cerc())
++# cerc2.raza = 8
++# print(f'Aria cercului este: {cerc2.aria()}')
++# print(f'Diametrul ceruclui este: {cerc2.diametru()}')
++# print(f'Circumferinta cerecului este: {cerc2.circunferinta()}')
++# print(f'Am creat Cercul1 despre care putem spune :\n{cerc2.descrie_cerc()}\n-are culoarea {cerc2.culoare}'
++#       f'\n-raza sa este de {cerc2.raza} fapt careia ii datoram urmatoarele:'
++#       f'\nAria: {cerc2.aria()}  Diametrul este: {cerc2.diametru()}  Circumferinta:{cerc2.circunferinta()} ')
++
++
++"""
++2. 
++Clasa Dreptunghi
++
++Atribute: lungime, latime, culoare
++
++Constructor pt toate atributele
++
++Metode:
++descrie()
++aria()
++perimetrul()
++schimba_culoarea(noua_culoare) - aceasta metoda nu returneaza nimic. Ea va lua ca si param o noua culoare si va 
++suprascrie atributul self.culoare. Puteti verifica schimbarea culorii prin apelarea metodei descrie().
++"""
++
++
++# class Dreptunghi:
++#     lungime = 0
++#     latime = 0
++#     culoare = None
++#
++#     def __init__(self, lungime, latime, culoare):
++#         self.lungime = lungime
++#         self.latime = latime
++#         self.culoare = culoare
++#
++#     def descriere_dreptunghi(self):
++#         return f'Avem un dreptunghi {self.culoare} lung de {self.lungime} si lat de {self.latime}'
++#
++#     def aria(self):
++#         aria = self.lungime*self.latime
++#         return aria
++#
++#     def perimetru(self):
++#         perimetru = (self.lungime+self.latime)*2
++#         return perimetru
++#
++#     def schimbare_culoare(self, culoare_noua):
++#         # culoare_noua = input('Schimbati culoarea:') - daca foloseam asta in RUN dupa printul rezultatului
++#         # imi afisa si un NONE, asta inseamna ca doar cu RETURN nu apare problema asta cu NONE?
++#         self.culoare = culoare_noua
++#
++#
++# print('----------Drepunghi1--------------')
++# dreptunghi1 = Dreptunghi(10, 5, 'Maro')
++# print(dreptunghi1.descriere_dreptunghi())
++# print(f'Aria este: {dreptunghi1.aria()}')
++# print(f'Perimetrul este :{dreptunghi1.perimetru()}')
++# # print(dreptunghi1.schimbare_culoare()) asa a fost apelata functia
++# dreptunghi1.schimbare_culoare(input('Schimbam culoarea dreptunghiului in: '))
++# print(dreptunghi1.descriere_dreptunghi())
++# print('----------Drepunghi2--------------')
++# dreptunghi2 = Dreptunghi(9.5, 7.35, 'Bleumarin')
++# print(dreptunghi2.descriere_dreptunghi())
++# print(f'Aria este: {dreptunghi2.aria()}')
++# print(f'Perimetrul este: {dreptunghi2.perimetru()}')
++# # print(dreptunghi2.schimbare_culoare()) asa a fost apelata functia
++# dreptunghi2.schimbare_culoare(input('Schimbam culoarea dreptunghiului in: '))
++# print(dreptunghi2.descriere_dreptunghi())
++
++
++"""
++3.
++Clasa Angajat
++
++Atribute: nume, prenume, salariu
++
++Constructor pt toate atributele
++
++Metode:
++descrie()
++nume_complet()
++salariu_lunar()
++salariu_anual()
++marire_salariu(procent)
++"""
++
++
++class Angjat:
++    nume = None
++    prenume = None
++    salariu = 0
++
++    def __init__(self, nume, prenume, salariu):
++        self.nume = nume
++        self.prenume = prenume
++        self.salariu = salariu
++
++    def descriere_angajat(self):
++        return f'Date angajat: \nPrenume: {self.prenume};\nNume: {self.nume}; \nSalar: {self.salariu} Euro.'
++
++    def nume_complet(self,):
++        nume_complet = self.prenume + ' ' + self.nume
++        return f'Numele complet a angajatului este: {nume_complet}'
++
++    def salariu_lunar(self):
++        salar = self.salariu
++        return salar
++
++    def salariu_anual(self):
++        salar_anual = self.salariu_lunar() * 12
++        return salar_anual
++
++    def marire_salariu(self, marire):
++        self.salariu = self.salariu_lunar() + (self.salariu_lunar() * (marire / 100))
++
++
++
++angajat1 = Angjat('Popovici', 'Maria', 500)
++print(angajat1.descriere_angajat())
++print(angajat1.nume_complet())
++print(f'{angajat1.nume_complet()} are salarul lunar de {angajat1.salariu_lunar()} Euro')
++print(f'Angajatul {angajat1.nume_complet()}, anual incaseaza prin salar {angajat1.salariu_anual()} Euro')
++angajat1.marire_salariu(int(input('Procentaj de marire acordat angajatului este: ')))
++print(angajat1.salariu)
+Index: it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\nexplicati urmatoarele chestii:\r\n    -Ce este un for, cand se foloseste si cum se foloseste:\r\nEste un mod prin care se programeaza repetarea unei secvente de operatiuni,\r\n    -Ce este un for each, cand se foloseste si cum se foloseste\r\n-Este o soliutie de iterare a unei secvente de operatiuni cu numar finit de executie atribuindu-se unei variabile\r\ntemporare o valoare\r\n in functie de  parametri altei variabile\r\n\r\n    -Care e diferenta intre for si foreach\r\n    -Ce este un while, cand se foloseste si cum se foloseste.\r\nEste creearea unei bucle\r\n\r\n\"\"\"\r\n\"\"\"Clasa Cerc\r\n\r\nAtribute: raza, culoare\r\n\r\nConstructor pt ambele atribute\r\n\r\nMetode:\r\ndescrie_cerc() - va PRINTA culoarea si raza\r\naria() - va RETURNA aria \r\ndiametru() \r\ncircumferinta()\r\n\"\"\"\r\n\r\n\r\nclass Cerc:  # definim clasa cerc cu litera mare\r\n    # aici trecem atrubutele(fields)\r\n    raza = 0\r\n    culoare = None\r\n\r\n    # definim constructorul\r\n    def __init__(self, raza, culoare):\r\n        self.raza = raza\r\n        self.culoare = culoare\r\n\r\n    # aici facem metodele\r\n    def descrie_cerc(self):\r\n        culoare = self.culoare\r\n        raza = self.raza\r\n        return f'Cercul nostru are culoarea {culoare} si are o raza de {raza}'\r\n\r\n    def aria(self, ):\r\n        aria = (self.raza ** 2) * 3.14\r\n        return aria\r\n\r\n    def diametru(self, ):\r\n        diametru = 2 * self.raza\r\n        return diametru\r\n\r\n    def circunferinta(self):\r\n        circumferinta = 2 * self.raza * 3.14\r\n        return circumferinta\r\n\r\n\r\nprint('------Cerc2--------')\r\ncerc1 = Cerc(8, 'Galben')\r\nprint(cerc1.descrie_cerc())\r\nprint(f'Aria cercului este: {cerc1.aria()}')\r\nprint(f'Diametrul ceruclui este: {cerc1.diametru()}')\r\nprint(f'Circumferinta cerecului este: {cerc1.circunferinta()}')\r\nprint(f'Am creat Cercul1 despre care putem spune :\\n{cerc1.descrie_cerc()}\\n-are culoarea {cerc1.culoare}'\r\n      f'\\n-raza sa este de {cerc1.raza} fapt careia ii datoram urmatoarele:'\r\n      f'\\nAria: {cerc1.aria()}  Diametrul este: {cerc1.diametru()}  Circumferinta:{cerc1.circunferinta()} ')\r\nprint('------Cerc2--------')\r\ncerc2 = Cerc(12, 'Bleumarin')\r\nprint(cerc2.descrie_cerc())\r\ncerc2.raza = 8\r\nprint(f'Aria cercului este: {cerc2.aria()}')\r\nprint(f'Diametrul ceruclui este: {cerc2.diametru()}')\r\nprint(f'Circumferinta cerecului este: {cerc2.circunferinta()}')\r\nprint(f'Am creat Cercul1 despre care putem spune :\\n{cerc2.descrie_cerc()}\\n-are culoarea {cerc2.culoare}'\r\n      f'\\n-raza sa este de {cerc2.raza} fapt careia ii datoram urmatoarele:'\r\n      f'\\nAria: {cerc2.aria()}  Diametrul este: {cerc2.diametru()}  Circumferinta:{cerc2.circunferinta()} ')\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py b/it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py
+--- a/it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py	(revision e6f07a9b19a76b3ffd5294f256a5d176ff64de73)
++++ b/it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py	(date 1649010467979)
+@@ -26,58 +26,169 @@
+ """
+ 
+ 
+-class Cerc:  # definim clasa cerc cu litera mare
+-    # aici trecem atrubutele(fields)
+-    raza = 0
+-    culoare = None
++# class Cerc:  # definim clasa cerc cu litera mare
++#     # aici trecem atrubutele(fields)
++#     raza = 0
++#     culoare = None
++#
++#     # definim constructorul
++#     def __init__(self, raza, culoare):
++#         self.raza = raza
++#         self.culoare = culoare
++#
++#     # aici facem metodele
++#     def descrie_cerc(self):
++#         culoare = self.culoare
++#         raza = self.raza
++#         return f'Cercul nostru are culoarea {culoare} si are o raza de {raza}'
++#
++#     def aria(self, ):
++#         aria = (self.raza ** 2) * 3.14
++#         return aria
++#
++#     def diametru(self, ):
++#         diametru = 2 * self.raza
++#         return diametru
++#
++#     def circunferinta(self):
++#         circumferinta = 2 * self.raza * 3.14
++#         return circumferinta
++#
++#
++# print('------Cerc2--------')
++# cerc1 = Cerc(8, 'Galben')
++# print(cerc1.descrie_cerc())
++# print(f'Aria cercului este: {cerc1.aria()}')
++# print(f'Diametrul ceruclui este: {cerc1.diametru()}')
++# print(f'Circumferinta cerecului este: {cerc1.circunferinta()}')
++# print(f'Am creat Cercul1 despre care putem spune :\n{cerc1.descrie_cerc()}\n-are culoarea {cerc1.culoare}'
++#       f'\n-raza sa este de {cerc1.raza} fapt careia ii datoram urmatoarele:'
++#       f'\nAria: {cerc1.aria()}  Diametrul este: {cerc1.diametru()}  Circumferinta:{cerc1.circunferinta()} ')
++# print('------Cerc2--------')
++# cerc2 = Cerc(12, 'Bleumarin')
++# print(cerc2.descrie_cerc())
++# cerc2.raza = 8
++# print(f'Aria cercului este: {cerc2.aria()}')
++# print(f'Diametrul ceruclui este: {cerc2.diametru()}')
++# print(f'Circumferinta cerecului este: {cerc2.circunferinta()}')
++# print(f'Am creat Cercul1 despre care putem spune :\n{cerc2.descrie_cerc()}\n-are culoarea {cerc2.culoare}'
++#       f'\n-raza sa este de {cerc2.raza} fapt careia ii datoram urmatoarele:'
++#       f'\nAria: {cerc2.aria()}  Diametrul este: {cerc2.diametru()}  Circumferinta:{cerc2.circunferinta()} ')
++
+ 
+-    # definim constructorul
+-    def __init__(self, raza, culoare):
+-        self.raza = raza
+-        self.culoare = culoare
++"""
++2. 
++Clasa Dreptunghi
+ 
+-    # aici facem metodele
+-    def descrie_cerc(self):
+-        culoare = self.culoare
+-        raza = self.raza
+-        return f'Cercul nostru are culoarea {culoare} si are o raza de {raza}'
++Atribute: lungime, latime, culoare
+ 
+-    def aria(self, ):
+-        aria = (self.raza ** 2) * 3.14
+-        return aria
++Constructor pt toate atributele
+ 
+-    def diametru(self, ):
+-        diametru = 2 * self.raza
+-        return diametru
++Metode:
++descrie()
++aria()
++perimetrul()
++schimba_culoarea(noua_culoare) - aceasta metoda nu returneaza nimic. Ea va lua ca si param o noua culoare si va 
++suprascrie atributul self.culoare. Puteti verifica schimbarea culorii prin apelarea metodei descrie().
++"""
+ 
+-    def circunferinta(self):
+-        circumferinta = 2 * self.raza * 3.14
+-        return circumferinta
+ 
++# class Dreptunghi:
++#     lungime = 0
++#     latime = 0
++#     culoare = None
++#
++#     def __init__(self, lungime, latime, culoare):
++#         self.lungime = lungime
++#         self.latime = latime
++#         self.culoare = culoare
++#
++#     def descriere_dreptunghi(self):
++#         return f'Avem un dreptunghi {self.culoare} lung de {self.lungime} si lat de {self.latime}'
++#
++#     def aria(self):
++#         aria = self.lungime*self.latime
++#         return aria
++#
++#     def perimetru(self):
++#         perimetru = (self.lungime+self.latime)*2
++#         return perimetru
++#
++#     def schimbare_culoare(self, culoare_noua):
++#         # culoare_noua = input('Schimbati culoarea:') - daca foloseam asta in RUN dupa printul rezultatului
++#         # imi afisa si un NONE, asta inseamna ca doar cu RETURN nu apare problema asta cu NONE?
++#         self.culoare = culoare_noua
++#
++#
++# print('----------Drepunghi1--------------')
++# dreptunghi1 = Dreptunghi(10, 5, 'Maro')
++# print(dreptunghi1.descriere_dreptunghi())
++# print(f'Aria este: {dreptunghi1.aria()}')
++# print(f'Perimetrul este :{dreptunghi1.perimetru()}')
++# # print(dreptunghi1.schimbare_culoare()) asa a fost apelata functia
++# dreptunghi1.schimbare_culoare(input('Schimbam culoarea dreptunghiului in: '))
++# print(dreptunghi1.descriere_dreptunghi())
++# print('----------Drepunghi2--------------')
++# dreptunghi2 = Dreptunghi(9.5, 7.35, 'Bleumarin')
++# print(dreptunghi2.descriere_dreptunghi())
++# print(f'Aria este: {dreptunghi2.aria()}')
++# print(f'Perimetrul este: {dreptunghi2.perimetru()}')
++# # print(dreptunghi2.schimbare_culoare()) asa a fost apelata functia
++# dreptunghi2.schimbare_culoare(input('Schimbam culoarea dreptunghiului in: '))
++# print(dreptunghi2.descriere_dreptunghi())
+ 
+-print('------Cerc2--------')
+-cerc1 = Cerc(8, 'Galben')
+-print(cerc1.descrie_cerc())
+-print(f'Aria cercului este: {cerc1.aria()}')
+-print(f'Diametrul ceruclui este: {cerc1.diametru()}')
+-print(f'Circumferinta cerecului este: {cerc1.circunferinta()}')
+-print(f'Am creat Cercul1 despre care putem spune :\n{cerc1.descrie_cerc()}\n-are culoarea {cerc1.culoare}'
+-      f'\n-raza sa este de {cerc1.raza} fapt careia ii datoram urmatoarele:'
+-      f'\nAria: {cerc1.aria()}  Diametrul este: {cerc1.diametru()}  Circumferinta:{cerc1.circunferinta()} ')
+-print('------Cerc2--------')
+-cerc2 = Cerc(12, 'Bleumarin')
+-print(cerc2.descrie_cerc())
+-cerc2.raza = 8
+-print(f'Aria cercului este: {cerc2.aria()}')
+-print(f'Diametrul ceruclui este: {cerc2.diametru()}')
+-print(f'Circumferinta cerecului este: {cerc2.circunferinta()}')
+-print(f'Am creat Cercul1 despre care putem spune :\n{cerc2.descrie_cerc()}\n-are culoarea {cerc2.culoare}'
+-      f'\n-raza sa este de {cerc2.raza} fapt careia ii datoram urmatoarele:'
+-      f'\nAria: {cerc2.aria()}  Diametrul este: {cerc2.diametru()}  Circumferinta:{cerc2.circunferinta()} ')
+ 
++"""
++3.
++Clasa Angajat
+ 
++Atribute: nume, prenume, salariu
+ 
++Constructor pt toate atributele
+ 
++Metode:
++descrie()
++nume_complet()
++salariu_lunar()
++salariu_anual()
++marire_salariu(procent)
++"""
+ 
+ 
++class Angjat:
++    nume = None
++    prenume = None
++    salariu = 0
+ 
++    def __init__(self, nume, prenume, salariu):
++        self.nume = nume
++        self.prenume = prenume
++        self.salariu = salariu
++
++    def descriere_angajat(self):
++        return f'Date angajat: \nPrenume: {self.prenume};\nNume: {self.nume}; \nSalar: {self.salariu} Euro.'
++
++    def nume_complet(self,):
++        nume_complet = self.prenume + ' ' + self.nume
++        return f'Numele complet a angajatului este: {nume_complet}'
++
++    def salariu_lunar(self):
++        salar = self.salariu
++        return salar
++
++    def salariu_anual(self):
++        salar_anual = self.salariu_lunar() * 12
++        return salar_anual
++
++    def marire_salariu(self, marire):
++        self.salariu = self.salariu_lunar() + (self.salariu_lunar() * (marire / 100))
++
++
++
++angajat1 = Angjat('Popovici', 'Maria', 500)
++print(angajat1.descriere_angajat())
++print(angajat1.nume_complet())
++print(f'{angajat1.nume_complet()} are salarul lunar de {angajat1.salariu_lunar()} Euro')
++print(f'Angajatul {angajat1.nume_complet()}, anual incaseaza prin salar {angajat1.salariu_anual()} Euro')
++angajat1.marire_salariu(int(input('Procentaj de marire acordat angajatului este: ')))
++print(angajat1.salariu)
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"406db5d7-7590-4ba6-9f62-d46aa5f5f6b9\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"27Hv2sjNxN0LGhPnJo9l94guvzu\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"exercitii_tema_7\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"it_factory_gr9_python\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/it_factory_gr9_python/Teme/7_din_16.03.2022\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.exercitii_tema_7\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"406db5d7-7590-4ba6-9f62-d46aa5f5f6b9\" name=\"Changes\" comment=\"\" />\r\n      <created>1648989621643</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1648989621643</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e6f07a9b19a76b3ffd5294f256a5d176ff64de73)
++++ b/.idea/workspace.xml	(date 1649010397747)
+@@ -1,8 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="406db5d7-7590-4ba6-9f62-d46aa5f5f6b9" name="Changes" comment="">
++    <list default="true" id="406db5d7-7590-4ba6-9f62-d46aa5f5f6b9" name="Changes" comment="pc update">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/it_factory_gr9_python/TEST.py" beforeDir="false" afterPath="$PROJECT_DIR$/it_factory_gr9_python/TEST.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/it_factory_gr9_python/Teme/7_din_16.03.2022/exercitii_tema_7.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -11,6 +13,14 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitSEFilterConfiguration">
++    <file-type-list>
++      <filtered-out-file-type name="LOCAL_BRANCH" />
++      <filtered-out-file-type name="REMOTE_BRANCH" />
++      <filtered-out-file-type name="TAG" />
++      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
++    </file-type-list>
+   </component>
+   <component name="ProjectId" id="27Hv2sjNxN0LGhPnJo9l94guvzu" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+@@ -60,6 +70,29 @@
+       <option name="presentableId" value="Default" />
+       <updated>1648989621643</updated>
+     </task>
++    <task id="LOCAL-00001" summary="pc update">
++      <created>1649000781081</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1649000781081</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="pc update" />
++    <option name="LAST_COMMIT_MESSAGE" value="pc update" />
++  </component>
+ </project>
+\ No newline at end of file
