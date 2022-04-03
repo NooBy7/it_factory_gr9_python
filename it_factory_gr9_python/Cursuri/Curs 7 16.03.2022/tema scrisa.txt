@@ -1,0 +1,5 @@
+explicati urmatoarele chestii:
+Ce este un for, cand se foloseste si cum se foloseste
+Ce este un for each, cand se foloseste si cum se foloseste
+Care e diferenta intre for si foreach
+Ce este un while, cand se foloseste si cum se foloseste.
