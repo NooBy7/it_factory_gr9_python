@@ -78,3 +78,6 @@ print(f'Am creat Cercul1 despre care putem spune :\n{cerc2.descrie_cerc()}\n-are
 
 
 
+
+
+
