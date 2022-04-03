@@ -74,3 +74,7 @@ print(f'Circumferinta cerecului este: {cerc2.circunferinta()}')
 print(f'Am creat Cercul1 despre care putem spune :\n{cerc2.descrie_cerc()}\n-are culoarea {cerc2.culoare}'
       f'\n-raza sa este de {cerc2.raza} fapt careia ii datoram urmatoarele:'
       f'\nAria: {cerc2.aria()}  Diametrul este: {cerc2.diametru()}  Circumferinta:{cerc2.circunferinta()} ')
+
+
+
+
