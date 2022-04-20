@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="406db5d7-7590-4ba6-9f62-d46aa5f5f6b9" name="Changes" comment="laptop update">
-      <change afterPath="$PROJECT_DIR$/it_factory_gr9_python/Cursuri/Curs 11 18.04.2022/curs_11_18.04.2022.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/it_factory_gr9_python/Cursuri/Curs 9 30.03.2022/curs_9_30.03.2022.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-Apr-22_21_34_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-Apr-22_21_34__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/it_factory_gr9_python/Cursuri/Curs 10 06.04.2022/curs_10_06.04.2022.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/it_factory_gr9_python/Cursuri/Curs 8 23.03.2022/~$t steps.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/it_factory_gr9_python/Cursuri/Curs 9 30.03.2022/~$Tema 7.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/it_factory_gr9_python/TEST.py" beforeDir="false" afterPath="$PROJECT_DIR$/it_factory_gr9_python/TEST.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +115,14 @@
       <option name="presentableId" value="Default" />
       <updated>1648989621643</updated>
     </task>
+    <task id="LOCAL-00001" summary="laptop update">
+      <created>1650316737256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650316737256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,5 +135,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="laptop update" />
+    <option name="LAST_COMMIT_MESSAGE" value="laptop update" />
   </component>
 </project>
